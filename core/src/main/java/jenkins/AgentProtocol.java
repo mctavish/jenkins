@@ -91,6 +91,7 @@ public abstract class AgentProtocol implements ExtensionPoint {
      * @since 2.16
      */
     public String getDisplayName() {
+        new RuntimeException("this should never happen");
         return getName();
     }
 
